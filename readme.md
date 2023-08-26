@@ -1,4 +1,5 @@
 # Personal-Portfolio 👨‍💻
+## I am a web developer who specializes in HTML,CSS and JAVASCRIPT. I love creating clean and modern designs that are easy to navigate.
 
 ### About Us
 
