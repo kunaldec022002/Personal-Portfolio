@@ -4,195 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal_Portfolio</title>
-    <style>
-
-        * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-      }
-      
-      header, nav, section, footer {
-          display: block;
-      }
-      
-      header {
-          background-color: #333;
-          color: #fff;
-          padding: 10px;
-      }
-      
-      nav ul {
-          list-style: none;
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          background-color: #ccc;
-          padding: 10px;
-          margin-bottom: 20px;
-      }
-      
-      nav li a {
-          text-decoration: none;
-          color: #333;
-          font-size: 18px;
-      }
-      
-      nav li a:hover {
-          color: #fff;
-          background-color: #333;
-          padding: 10px;
-          border-radius: 5px;
-          transition: all 0.3s ease-in-out;
-      }
-      
-      section {
-          padding: 10px 20px;
-          margin: 20px 0;
-      }
-      
-      
-      .About-me
-      {
-          margin-top: 40px;
-          background-color:#333;
-          height: 540px;
-          width: 400px;
-          border-radius: 10px;
-      
-      }
-      
-      .about-img
-      {
-          height: 200px;
-          padding: 10px;
-          border-radius: 100%100%;
-      }
-      
-      #para-name
-      {
-          color: #fff;
-          text-align:center;
-          font-size: 20px;
-      }
-      .technology
-      {
-          color: #fff;
-          margin-left: 10px;
-          margin-top: 5px;
-      }
-      ul li
-      {
-          color: #fff;
-          margin-left:25px;
-      }
-      .Programming
-      {
-          color: #fff;
-          margin-left: 10px;
-      
-      }
-      .account-id
-      {
-          display: flex;
-          justify-content: center;
-          
-      
-      }
-      
-      .id 
-      {
-          height: 40px;
-          margin: 8px;
-      }
-      
-      .id:hover
-      {
-         transition: 0.5s;
-         transform: translateY(-10px);
-      }
-      .social-media
-      {
-          color: #fff;
-          text-align: center;
-      }
-      
-      img {
-          max-width: 100%;
-          height: auto;
-          display: block;
-          margin: 10px auto;
-      }
-      
-      .project {
-          width: 300px;
-          border: 1px solid #ccc;
-          padding: 10px;
-          margin: 20px;
-          vertical-align: top;
-          display: inline-block;
-          text-align: center;
-      }
-      
-      .project h3 {
-          font-size: 24px;
-          margin: 10px 0;
-      }
-      
-      .project p {
-          font-size: 16px;
-          line-height: 1.5;
-          padding: 10px;
-      }
-      
-      form {
-          display: flex;
-          flex-direction: column;
-          border: 1px solid #ccc;
-          padding: 20px;
-          max-width: 600px;
-          margin: 0 auto;
-      }
-      
-      label {
-          font-size: 18px;
-          font-weight: bold;
-          margin-bottom: 10px;
-      }
-      
-      input[type="text"], input[type="email"], textarea {
-          padding: 10px;
-          margin-bottom: 20px;
-          border: 1px solid #ccc;
-          border-radius: 5px;
-          font-size: 16px;
-      }
-      
-      input[type="submit"] {
-          background-color: #333;
-          color: #fff;
-          padding: 10px;
-          border: none;
-          border-radius: 5px;
-          font-size: 18px;
-          align-self: center;
-          cursor: pointer;
-      }
-      
-      footer {
-          text-align: center;
-          background-color: #333;
-          color: #fff;
-          padding: 10px;
-          margin-top: 20px;
-      }
-
-      .project-img
-      {
-        width: 300px;
-      }
-      
-          </style>
+     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
      <header>
@@ -200,14 +12,14 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Projects</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#about" class="nav-btn">About Me</a></li>
+            <li><a href="#portfolio" class="nav-btn">Projects</a></li>
+            <li><a href="#contact" class="nav-btn">Contact Me</a></li>
         </ul>
     </nav>
     <section id="about">
-        <h2>About Me</h2>
-        <p>I am a web developer who specializes in HTML,CSS and JAVASCRIPT. I love creating clean and modern designs that are easy to navigate.</p>
+        <h2 style="text-align: center; font-size: xx-large;">About Me</h2>
+        <p style="text-align: center;margin-top: 10px;">I am a web developer who specializes in HTML,CSS and JAVASCRIPT. I love creating clean and modern designs that are easy to navigate.</p>
         <div class="About-me">
 
             <img src="about me .jpg" class="about-img" />
@@ -249,7 +61,9 @@
         
     </section>
     <section id="portfolio">
-        <h2>Project</h2>
+        <h2 style="text-align: center; font-size: xx-large;margin-top: 10px;">
+            Projects
+        </h2>
         <div class="project">
             <img src="./Image/Explore_Maharastra.png"   class="project-img" alt="Project 1">
             <h3>Explore_Maharastra</h3>
@@ -292,7 +106,8 @@
 
     </section>
     <section id="contact">
-        <h2>Contact Me</h2>
+        <h2 style="text-align: center; font-size: xx-large;margin-top: 10px;">Contact Me</h2>
+        <br/>
         <form action="#">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
