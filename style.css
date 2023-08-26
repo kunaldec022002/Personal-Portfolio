@@ -13,7 +13,7 @@ header, nav, section, footer {
 header {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 20px;
 }
 
 nav ul {
@@ -21,7 +21,7 @@ nav ul {
   display: flex;
   justify-content: end;
   background-color: #ccc;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 
@@ -34,15 +34,15 @@ nav li a {
 nav li a:hover {
   color: black;
   background-color:#ffffcc;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 10px;
+  
   transition: all 0.3s ;
 }
 
 .nav-btn
 {
   margin-right: 5px;
-  padding: 5px;
+  padding: 10px;
 }
 section {
   padding: 10px 20px;
