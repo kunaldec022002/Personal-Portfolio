@@ -111,16 +111,26 @@
         <br/>
         <form action="#">
             <label for="name">Name:</label>
-            <input type="text" class="input" id="name" name="name" required>
+            <input type="text"  id="name" name="name" required>
             <label for="email">Email:</label>
-            <input type="email" class="input" id="email" name="email" required>
+            <input type="email" id="email" name="email" required>
             <label for="message">Message:</label>
             <textarea id="message" name="message"></textarea>
-            <input type="submit" class="input" value="Send">
+            <input type="submit" class="Send" value="Send" onclick="send_messege()">
         </form>
     </section>
     <footer>
         <p>&copy; 2021 My Portfolio. All rights reserved.</p>
     </footer>
+
+    <script>
+
+        function send_messege()
+        {
+            const msg = document.getElementsByClassName('send');
+            
+            document.write=alert("Your Messege Send Sucessfylly");
+        }
+    </script>
 </body>
 </html>
